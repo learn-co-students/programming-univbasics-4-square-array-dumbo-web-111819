@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
-end
+index = 0
+
+while array[index] do
+puts array[index]
+ 
+index = index ** 2
+end 
+
+
